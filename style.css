@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    transition: background 1s ease;
+    background-color: #9af7c1a7;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 25px;
+    /* height: 27rem; */
+    width: 20rem;
+    background-color: #214E34;
+}
+
+.inputBox {
+    margin: 1rem;
+    display: flex;
+    /* border: solid 1px red; */
+}
+
+.inputBox>input {
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 100%;
+    background-color: #A9E190;
+    text-align: center;
+    border: none;
+
+}
+
+.inputBox>button {
+    border: none;
+    border-radius: 10px;
+    background-color: #A9E190;
+    margin-left: .1rem;
+    cursor: pointer;
+    width: 3rem;
+
+    /* width: 5rem; */
+    &:hover {
+        background-color: #9ce679;
+    }
+}
+
+button img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.temp>img {
+    height: 8rem;
+}
+
+.temp>h1 {
+    color: #A9E190;
+}
+
+.temp>h2 {
+    color: #A9E190;
+}
+
+.footer {
+    display: flex;
+    margin: 1rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.humidity {
+    /* margin-left: 1rem; */
+    color: #A9E190;
+    display: flex;
+    align-items: center;
+
+}
+
+.humidity>img {
+    height: 4rem;
+    padding: .5rem;
+}
+
+.humidity-text {
+    margin-top: 1.5rem;
+    color: #A9E190;
+}
+p{
+    font-size: 12px;
+}
+
+
+.windSpeed {
+    display: flex;
+    /* margin-right: 3rem; */
+    color: #A9E190;
+    align-items: center;
+}
+
+.windSpeed>img {
+    height: 5rem;
+    padding: .5rem;
+}
+
+.windSpeed-text {
+    margin-top: 1.5rem;
+    color: #A9E190;
+    text-align: start;
+    /* margin-right: .3rem; */
+}
+.hide{
+    display: none;
+}
+.error{
+ margin: 1rem;
+ color: rgb(245, 78, 78);
+ text-align: center;
+ display: none;
+}

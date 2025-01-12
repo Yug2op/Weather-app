@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputBox">
+            <input type="text" id="city" placeholder="Enter City Name" spellcheck="false">
+            <button id="get-weather"><img src="search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="hide">
+        <div class="temp">
+            <img src="weather.png" alt="Image">
+            <h1 class="showTemp">55°C</h1>
+            <h2 class="showCity">Lucknow</h2>
+        </div>
+        <div class="footer">
+            <div class="humidity"><img src="humidity.png">
+            </div>
+            <div class="humidity-text">
+                <h3>50%</h3>
+                <p>humidity</p>
+            </div>
+
+            <div class="windSpeed"><img src="windy-weather.png">
+            </div>
+            <div class="windSpeed-text">
+                <h3>16km/h</h3>
+                <p>wind speed</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
